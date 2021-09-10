@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/ingreso.css">
+  <title>ToDo</title>
+  <!-- --------------------------- CDN sweetalert ---------------------------- -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  <script src="/scripts/resgister.js"></script>
+</head>
+
+<body>
+  
+  <form>
+    <div class="form-header">
+      <p>ToDo</p>
+    </div>
+    <h1>Nueva cuenta</h1>
+
+    <label>
+      Nombre:
+      <input id="nombre" type="text">
+    </label>
+      <label>
+      Apellido:
+      <input id="apellido" type="text">
+    </label>
+    <label>
+      Email:
+      <input id="inputEmail" type="text">
+    </label>
+    <label>
+      Contraseña:
+      <input id="inputPassword" type="password">
+    </label>
+    <label>
+      Repetir contraseña:
+      <input id="passwordConfirm" type="password">
+    </label>
+
+    <div id="loading" class="oculto">
+      <img src="/assets/loader.gif" alt="laoding...">
+    </div>
+
+    <button>Crear Cuenta</button>
+
+  </form>
+  <div class="ingresarA">
+    <a class="" href="login.html">¿Ya tiene una cuenta? Ingrese aquí</a>
+  </div>
+
+</body>
+
+</html>
